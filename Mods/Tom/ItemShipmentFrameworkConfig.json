@@ -1,0 +1,239 @@
+{
+  "FileVersion": 1,
+  "Items": [
+    {
+      "Send": {
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "FrameworkCheck": true,
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            }
+          },
+          "PlayerProgression": {
+            "Act": 1,
+            "Level": 1
+          }
+        },
+        "NotifyPlayer": true,
+        "On": {
+          "DayEnd": false,
+          "SaveLoad": true
+        },
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        }
+      },
+      "TemplateUUID": "2f5636ff-8f50-47cd-9e3e-267ee39e806b"
+    },
+    {
+      "Send": {
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "FrameworkCheck": true,
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            }
+          },
+          "PlayerProgression": {
+            "Act": 1,
+            "Level": 1
+          }
+        },
+        "NotifyPlayer": true,
+        "On": {
+          "DayEnd": false,
+          "SaveLoad": true
+        },
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        }
+      },
+      "TemplateUUID": "4afeda45-5957-410c-b13c-e37e0824d7ed"
+    },
+    {
+      "Send": {
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "FrameworkCheck": true,
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            }
+          },
+          "PlayerProgression": {
+            "Act": 1,
+            "Level": 1
+          }
+        },
+        "NotifyPlayer": true,
+        "On": {
+          "DayEnd": false,
+          "SaveLoad": true
+        },
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        }
+      },
+      "TemplateUUID": "b9a39f76-73a8-4d6d-8f83-d93d3e0d015c"
+    },
+    {
+      "Send": {
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "FrameworkCheck": true,
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            }
+          },
+          "PlayerProgression": {
+            "Act": 1,
+            "Level": 1
+          }
+        },
+        "NotifyPlayer": true,
+        "On": {
+          "DayEnd": false,
+          "SaveLoad": true
+        },
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        }
+      },
+      "TemplateUUID": "1638043b-c566-41ac-8d36-a2aaedb7e32c"
+    },
+    {
+      "Send": {
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "FrameworkCheck": true,
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            }
+          },
+          "PlayerProgression": {
+            "Act": 1,
+            "Level": 1
+          }
+        },
+        "NotifyPlayer": true,
+        "On": {
+          "DayEnd": false,
+          "SaveLoad": true
+        },
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        }
+      },
+      "TemplateUUID": "d63151b1-4cc1-45d6-948e-60b3b620058a"
+    },
+    {
+      "TemplateUUID": "2d0a3da2-d188-425e-9a55-77e2035f713b",
+      "Send": {
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        },
+        "On": {
+          "SaveLoad": true,
+          "DayEnd": false
+        },
+        "NotifyPlayer": true,
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            },
+            "FrameworkCheck": true
+          },
+          "PlayerProgression": {
+            "Level": 1,
+            "Act": 1
+          }
+        }
+      }
+    }
+  ]
+}

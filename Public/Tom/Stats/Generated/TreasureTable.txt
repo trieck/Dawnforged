@@ -1,0 +1,14 @@
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "-1"
+object category "I_Tom_Shadows_Heart",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Tom_Argentum",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Tom_Tonitrum",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Tom_Patentibus",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Tom_Tonitrolus",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Tom_Malevolence",1,0,0,0,0,0,0,0
