@@ -10,7 +10,7 @@
                     <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Sun_Mace_A" />
                     <attribute id="MapKey" type="FixedString" value="2f5636ff-8f50-47cd-9e3e-267ee39e806b" />
                     <attribute id="Name" type="LSString" value="Tom_Shadows_Heart" />
-                    <attribute id="ParentTemplateId" type="FixedString" value="df08ec01-52f0-4fdf-b5e7-4fa0970a480a" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="78837dd4-b4fb-4c9d-937d-d3ef56b4d9c9" />
                     <attribute id="Stats" type="FixedString" value="Tom_Shadows_Heart" />
                     <attribute id="Type" type="FixedString" value="item" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
