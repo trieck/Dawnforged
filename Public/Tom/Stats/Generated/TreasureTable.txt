@@ -14,3 +14,7 @@ new subtable "-1"
 object category "I_Tom_Malevolence",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_Tom_Malice",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Tom_Verdant_Fang",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Tom_Moonshadow",1,0,0,0,0,0,0,0

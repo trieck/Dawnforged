@@ -103,6 +103,35 @@
                     </children>
                 </node>          
 
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="h556a1a5cg7893g4d2bga89ag798e466340c7" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc5876b7fg8db7g4e9ag8e89g7c56f343d1a6" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Scimitar_Adamantine_A" />
+                    <attribute id="MapKey" type="FixedString" value="ca6f5186-f56b-492e-8720-fbcab7a38b2c" />
+                    <attribute id="Name" type="LSString" value="Tom_Verdant_Fang" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="7cc7a0e1-d0b8-4569-afb2-d538e8941894" />
+                    <attribute id="Stats" type="FixedString" value="Tom_Verdant_Fang" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>  
+
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="h7e2ad7e8g185fg4f6egb2beg9a2de1560e74" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h74f6f1e6g6a8cg4e82g88a5g914ea22b4950" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Scimitar_A_2" />
+                    <attribute id="MapKey" type="FixedString" value="1186205f-5247-4015-824b-87b6ccf3aeb7" />
+                    <attribute id="Name" type="LSString" value="Tom_Moonshadow" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5193af64-48c1-406f-90bf-87f7f01b4684" />
+                    <attribute id="Stats" type="FixedString" value="Tom_Moonshadow" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>         
             </children>
         </node>
     </region>
