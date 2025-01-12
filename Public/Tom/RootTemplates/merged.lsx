@@ -132,6 +132,22 @@
                         <node id="GameMaster" />
                     </children>
                 </node>         
+
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="hd8088b1fg63d7g4e8fg9ebfg17636f7943f2" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3b21f8e6ge85dg4d4cgafedgcf649d000c54" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_Necklace_C_Silver_A" />
+                    <attribute id="MapKey" type="FixedString" value="91d269b6-6b9d-4c24-a107-50e7765c1117" />
+                    <attribute id="Name" type="LSString" value="Warpbinder" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="50d054ee-4982-46eb-8f16-7a1c71ec8e28" />
+                    <attribute id="Stats" type="FixedString" value="Warpbinder" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
             </children>
         </node>
     </region>
