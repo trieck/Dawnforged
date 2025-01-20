@@ -19,4 +19,7 @@
   <content contentuid="h7e2ad7e8g185fg4f6egb2beg9a2de1560e74" version="1"> A nimble scimitar that glimmers with moonlight, granting swiftness and the power to blind foes with its radiant strikes</content>
   <content contentuid="h3b21f8e6ge85dg4d4cgafedgcf649d000c54" version="1">Warpbinder Amulet</content>
   <content contentuid="hd8088b1fg63d7g4e8fg9ebfg17636f7943f2" version="1">An enchanted amulet that allows its wearer to traverse vast distances in the blink of an eye.</content>
+  <content contentuid="hb8e92b90gc80bg4f23g9954gc7a0c8b004b5" version="1">Fearful On Hit</content>
+  <content contentuid="hfeaea20ag9a12g408ag974dg3fcb5a379e7d" version="1">Applies Fear on hit if the target fails a Wisdom saving throw (DC 15).
+  </content>
 </contentList>
