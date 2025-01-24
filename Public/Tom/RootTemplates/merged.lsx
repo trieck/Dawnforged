@@ -148,6 +148,21 @@
                     </children>
                 </node>
 
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="4eb38fc0-a906-4cf2-bcb9-f03f801df7f9" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="727369c2-ea46-4f8d-81e9-742fc4c6602b" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_MAG_ChargedLightning_BonusAC_Robe" />
+                    <attribute id="MapKey" type="FixedString" value="a997b51b-2f68-47da-9970-ef7eca06e4e2" />
+                    <attribute id="Name" type="LSString" value="Gravebinders_Mantle" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="f28c3264-8cdb-46c1-800f-a47a01e49efc" />
+                    <attribute id="Stats" type="FixedString" value="Gravebinders_Mantle" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
             </children>
         </node>
     </region>

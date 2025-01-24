@@ -390,6 +390,45 @@
           }
         }
       }
+    },
+    {
+      "TemplateUUID": "a997b51b-2f68-47da-9970-ef7eca06e4e2",
+      "Send": {
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        },
+        "On": {
+          "SaveLoad": true,
+          "DayEnd": false
+        },
+        "NotifyPlayer": true,
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            },
+            "FrameworkCheck": true
+          },
+          "PlayerProgression": {
+            "Level": 1,
+            "Act": 1
+          }
+        }
+      }
     }
   ]
 }
