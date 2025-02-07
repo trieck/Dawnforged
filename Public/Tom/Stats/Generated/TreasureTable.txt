@@ -21,4 +21,4 @@ object category "I_Tom_Moonshadow",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_Warpbinder",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "Gravebinders_Mantle",1,0,0,0,0,0,0,0
+object category "I_Gravebinders_Mantle",1,0,0,0,0,0,0,0
