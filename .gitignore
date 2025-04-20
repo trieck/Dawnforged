@@ -1,4 +1,4 @@
-/Public/Tom/RootTemplates/*.lsf
-/Localization/English/*.loca
+*.lsf
+*.loca
 *.bak
 *.tmp
