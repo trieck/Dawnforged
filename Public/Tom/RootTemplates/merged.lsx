@@ -163,6 +163,21 @@
                     </children>
                 </node>
 
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4ef4fbe7g9c4ag46d6g9e75g8d3c17e52d56" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h8f3bdc81g46ddg4b05g87b0g21a2e61db0ec" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_MAG_PHB_Ring_Of_Protection" />
+                    <attribute id="MapKey" type="FixedString" value="7a72adc8-e6e7-46d5-b8b8-be2f2ce9b51d" />
+                    <attribute id="Name" type="LSString" value="Moonfinger" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="937bf6e0-185d-4245-9465-b84b962f66a7" />
+                    <attribute id="Stats" type="FixedString" value="Moonfinger" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
             </children>
         </node>
     </region>

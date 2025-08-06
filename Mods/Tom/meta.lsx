@@ -8,7 +8,7 @@
                 <node id="ModuleInfo">
                     <attribute id="Author" type="LSString" value="Thomas A. Rieck"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-                    <attribute id="Description" type="LSString" value="This is Tom's BG3 Mod"/>
+                    <attribute id="Description" type="LSString" value="This is Tom's Baldur's Gate 3 Mod"/>
                     <attribute id="Folder" type="LSString" value="Tom"/>
                     <attribute id="GMTemplate" type="FixedString" value=""/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
@@ -22,7 +22,7 @@
                     <attribute id="Tags" type="LSString" value=""/>
                     <attribute id="Type" type="FixedString" value="Add-on"/>
                     <attribute id="UUID" type="FixedString" value="8339dd39-628f-4e25-b885-66865f16afa9"/>
-                    <attribute id="Version" type="int64" value="36028797018963980"/>
+                    <attribute id="Version" type="int64" value="36028797018963981"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version" type="int64" value="36028797018963968"/>

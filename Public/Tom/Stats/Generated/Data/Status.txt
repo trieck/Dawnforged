@@ -1,0 +1,4 @@
+new entry "FLY_MOONFINGER"
+type "StatusData"
+using "FLY"
+data "Boosts" "UnlockSpell(Projectile_Fly_Spell_Moonfinger)"

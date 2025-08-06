@@ -1,8 +1,8 @@
 <contentList date="26/10/2020 01:10">
   <content contentuid="h5eec0cb422f845c8a1abe70393d59838" version="1">Shadow's Heart</content>
-  <content contentuid="habbebf9032694fa1880fcd874fd4becd" version="1">This is Shadowheart's Mace</content>
+  <content contentuid="habbebf9032694fa1880fcd874fd4becd" version="1">Shadowheart's Mace gifted to her by Viconia DeVir</content>
   <content contentuid="hc1df4ef1g6d29g4341g91f2gd91b4645fbe8" version="1">Argentum</content>
-  <content contentuid="hc1aa21b3g0aa5g4fadg9425g43c433be36c6" version="1">This is Laezel's Sword</content>
+  <content contentuid="hc1aa21b3g0aa5g4fadg9425g43c433be36c6" version="1">Laezel's Silver Sword gifted to her by Crèche K'liir</content>
   <content contentuid="h9ac3b253g6c43g4600g9b26ga8f92332ab84" version="1">Tonitrum</content>
   <content contentuid="h1f76d3d5gc1a1g467dg92ceg507f9ca5270a" version="1">A Sword of Thunder</content>
   <content contentuid="h7eb5f572g06e4g4a77g9b88g0a91a5aa9679" version="1">Patentibus</content>
@@ -23,4 +23,9 @@
   <content contentuid="hfeaea20ag9a12g408ag974dg3fcb5a379e7d" version="1">10% of the time, applies Fear on hit if the target fails a Wisdom saving throw (DC 15).</content>
   <content contentuid="727369c2-ea46-4f8d-81e9-742fc4c6602b" version="1">Gravebinder's Mantle</content>
   <content contentuid="4eb38fc0-a906-4cf2-bcb9-f03f801df7f9" version="1">This robe emanates a chilling aura, woven with threads of shadow and whispers from beyond the grave. Only those attuned to the necrotic arts dare to don its power.</content>
+  <content contentuid="h4ef4fbe7g9c4ag46d6g9e75g8d3c17e52d56" version="1">Moonfinger</content>
+  <content contentuid="h8f3bdc81g46ddg4b05g87b0g21a2e61db0ec" version="1">It glints only under starlight and never casts a shadow</content>
+  <content contentuid="hbbc372f8g9756g4f18g941fg5e9214f947a7" version="1">Fly (Moonfinger)</content>
+  <content contentuid="hf1185af6g082bg4fb4gae16g263ce5435b03" version="1">Take flight up to 60m, borne on moonlight and wind.</content>
+
 </contentList>
