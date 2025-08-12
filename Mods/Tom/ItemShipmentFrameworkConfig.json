@@ -355,7 +355,7 @@
     {
       "TemplateUUID": "91d269b6-6b9d-4c24-a107-50e7765c1117",
       "Send": {
-        "Quantity": 6,
+        "Quantity": 0,
         "To": {
           "CampChest": {
             "Player1Chest": true,
@@ -433,7 +433,7 @@
     {
       "TemplateUUID": "7a72adc8-e6e7-46d5-b8b8-be2f2ce9b51d",
       "Send": {
-        "Quantity": 1,
+        "Quantity": 10,
         "To": {
           "CampChest": {
             "Player1Chest": true,
