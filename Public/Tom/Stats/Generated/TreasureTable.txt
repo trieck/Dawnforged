@@ -23,4 +23,8 @@ object category "I_Warpbinder",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_Gravebinders_Mantle",1,0,0,0,0,0,0,0
 new subtable "-1"
+object category "I_Furybound",1,0,0,0,0,0,0,0
+new subtable "-1"
 object category "I_Moonfinger",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Lockbane",1,0,0,0,0,0,0,0

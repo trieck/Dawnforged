@@ -164,6 +164,20 @@
                 </node>
 
                 <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="h4dd4d754g0ee6g492agab96g8fe8acb97df4" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd17791c2g9ffag4387gbdc8ga668b997adb5" version="1" />
+                    <attribute id="MapKey" type="FixedString" value="c221a696-d25e-47b7-816e-36889eed00a6" />
+                    <attribute id="Name" type="LSString" value="Furybound" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5fc2fcce-810d-47d2-824c-f6acf7b81a22" />
+                    <attribute id="Stats" type="FixedString" value="Furybound" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
+                <node id="GameObjects">
                     <attribute id="DisplayName" type="TranslatedString" handle="h4ef4fbe7g9c4ag46d6g9e75g8d3c17e52d56" version="1" />
                     <attribute id="Description" type="TranslatedString" handle="h8f3bdc81g46ddg4b05g87b0g21a2e61db0ec" version="1" />
                     <attribute id="Icon" type="FixedString" value="Item_MAG_PHB_Ring_Of_Protection" />
@@ -171,6 +185,20 @@
                     <attribute id="Name" type="LSString" value="Moonfinger" />
                     <attribute id="ParentTemplateId" type="FixedString" value="937bf6e0-185d-4245-9465-b84b962f66a7" />
                     <attribute id="Stats" type="FixedString" value="Moonfinger" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfd5ad259g5b1fg4da2gaa93g6959e41c3f3b" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h6baf6ff9ge234g4e32ga1e2g1bbaeebcc6fa" version="1" />
+                    <attribute id="MapKey" type="FixedString" value="fa962a4f-2c7a-4d47-8b2c-1878e84a9236" />
+                    <attribute id="Name" type="LSString" value="Lockbane" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="f2624ca8-4a09-4da4-93b2-a7a126c6d44d" />
+                    <attribute id="Stats" type="FixedString" value="Lockbane" />
                     <attribute id="Type" type="FixedString" value="item" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
                     <children>

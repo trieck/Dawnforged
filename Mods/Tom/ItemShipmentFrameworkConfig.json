@@ -467,7 +467,85 @@
             "Act": 1
           }
         }
-      }
+      }      
+    },
+    {
+      "TemplateUUID": "c221a696-d25e-47b7-816e-36889eed00a6",
+      "Send": {
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        },
+        "On": {
+          "SaveLoad": true,
+          "DayEnd": false
+        },
+        "NotifyPlayer": true,
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            },
+            "FrameworkCheck": true
+          },
+          "PlayerProgression": {
+            "Level": 1,
+            "Act": 1
+          }
+        }
+      }      
+    },
+    {
+      "TemplateUUID": "fa962a4f-2c7a-4d47-8b2c-1878e84a9236",
+      "Send": {
+        "Quantity": 1,
+        "To": {
+          "CampChest": {
+            "Player1Chest": true,
+            "Player2Chest": true,
+            "Player3Chest": true,
+            "Player4Chest": true
+          },
+          "Host": false
+        },
+        "On": {
+          "SaveLoad": true,
+          "DayEnd": false
+        },
+        "NotifyPlayer": true,
+        "Check": {
+          "ItemExistence": {
+            "CampChest": {
+              "Player1Chest": true,
+              "Player2Chest": true,
+              "Player3Chest": true,
+              "Player4Chest": true
+            },
+            "PartyMembers": {
+              "ActiveParty": true,
+              "AtCamp": true
+            },
+            "FrameworkCheck": true
+          },
+          "PlayerProgression": {
+            "Level": 1,
+            "Act": 1
+          }
+        }
+      }      
     }
   ]
 }
