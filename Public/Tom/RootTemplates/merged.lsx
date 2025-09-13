@@ -206,6 +206,20 @@
                     </children>
                 </node>
 
+                 <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8c90410egbc07g47b8g8d2aga4a7c84ca5d9" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="ha58463ebg0304g455dg892fg2f2ec4c4aee1" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_MAG_TheVictory_Longbow" />
+                    <attribute id="MapKey" type="FixedString" value="65fe45e8-2144-42f8-a181-0cce9c28a779" />
+                    <attribute id="Name" type="LSString" value="Dawnstrider" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="118967f7-14de-41fa-bec8-3ba383252e9a" />
+                    <attribute id="Stats" type="FixedString" value="Tom_Dawnstrider" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
             </children>
         </node>
     </region>
