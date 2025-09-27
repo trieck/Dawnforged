@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5" />
+    <region id="Config">
+        <node id="root">
+            <children>
+                <node id="Dependencies">
+                  <children>
+                    <node id="ModuleShortDesc">
+                      <attribute id="Folder" type="LSWString" value="AVItemShipmentFramework" />
+                      <attribute id="MD5" type="LSString" value="" />
+                      <attribute id="Name" type="FixedString" value="AVItemShipmentFramework" />
+                      <attribute id="UUID" type="FixedString" value="e6333436-9cf0-4464-aaf2-39246292575e" />
+                      <attribute id="Version64" type="int64" value="36451009484029952" />
+                    </node>
+                  </children>
+                </node>
+                <node id="ModuleInfo">
+                    <attribute id="Author" type="LSString" value="Thomas A. Rieck"/>
+                    <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+                    <attribute id="Description" type="LSString" value="Unique weapons and treasures forged in the light of the Morninglord."/>
+                    <attribute id="Folder" type="LSString" value="Dawnforged"/>
+                    <attribute id="GMTemplate" type="FixedString" value=""/>
+                    <attribute id="LobbyLevelName" type="FixedString" value=""/>
+                    <attribute id="MD5" type="LSString" value=""/>
+                    <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
+                    <attribute id="MenuLevelName" type="FixedString" value=""/>
+                    <attribute id="Name" type="FixedString" value="Dawnforged"/>
+                    <attribute id="NumPlayers" type="uint8" value="4"/>
+                    <attribute id="PhotoBooth" type="FixedString" value=""/>
+                    <attribute id="StartupLevelName" type="FixedString" value=""/>
+                    <attribute id="Tags" type="LSString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Add-on"/>
+                    <attribute id="UUID" type="FixedString" value="8339dd39-628f-4e25-b885-66865f16afa9"/>
+                    <attribute id="Version" type="int64" value="36028797018963994"/>
+                    <children>
+                        <node id="PublishVersion">
+                            <attribute id="Version" type="int64" value="36028797018963969"/>
+                        </node>
+                        <node id="Scripts"/>
+                        <node id="TargetModes">
+                            <children>
+                                <node id="Target">
+                                    <attribute id="Object" type="FixedString" value="Story"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
