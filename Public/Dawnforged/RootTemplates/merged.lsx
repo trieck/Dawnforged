@@ -168,6 +168,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="hd17791c2g9ffag4387gbdc8ga668b997adb5" version="1" />
                     <attribute id="MapKey" type="FixedString" value="c221a696-d25e-47b7-816e-36889eed00a6" />
                     <attribute id="Name" type="LSString" value="Furybound" />
+                    <attribute id="Icon" type="LSString" value="Item_ARM_Cloth_B_1" />
                     <attribute id="ParentTemplateId" type="FixedString" value="5fc2fcce-810d-47d2-824c-f6acf7b81a22" />
                     <attribute id="Stats" type="FixedString" value="Furybound" />
                     <attribute id="Type" type="FixedString" value="item" />
