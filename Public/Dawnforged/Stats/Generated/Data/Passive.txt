@@ -12,3 +12,13 @@ data "Icon" "GenericIcon_DamageType_Thunder"
 data "Properties" ""
 data "DescriptionParams" "4;DealDamage(1d4, Thunder)"
 data "TooltipDamage" "DealDamage(1d4,Thunder)"
+
+new entry "Dawnforged_Light"
+type "PassiveData"
+using "CRE_LathandersLight_Passive"
+data "DisplayName" "hf7ab1010g2e13g40eegaba0g8c4d05670bd4"
+data "Description" "h8f7cf2a5g8a86g45bega2e3g8b8984513df0"
+data "DescriptionParams" "Distance(18)"
+data "ToggleOnFunctors" "ApplyStatus(MAG_DAWNFORGED_LIGHT, 100, -1)"
+data "ToggleOffFunctors" "RemoveStatus(MAG_DAWNFORGED_LIGHT)"
+

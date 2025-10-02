@@ -225,7 +225,7 @@
                 <node id="GameObjects">
                     <attribute id="DisplayName" type="TranslatedString" handle="h1aa5309dg9384g44c6gb856g48cd56546240" version="1" />
                     <attribute id="Description" type="TranslatedString" handle="h4e405433g44c4g4184g8701gef0837c70947" version="1" />
-                    <attribute id="Icon" type="FixedString" value="Item_ARM_Robe_CultOfAbsolute_Magic" />
+                    <attribute id="Icon" type="FixedString" value="Generated_MAG_Bhaalist_Armor_Magic" />
                     <attribute id="MapKey" type="FixedString" value="f3f9b424-a19d-4846-a06c-a35ac2b4f353" />
                     <attribute id="Name" type="LSString" value="Morninglords_Mantle" />
                     <attribute id="ParentTemplateId" type="FixedString" value="ffed890a-69fe-4798-8c71-1bd3b72369bc" />
