@@ -1,8 +1,3 @@
-new entry "FLY_MOONFINGER"
-type "StatusData"
-using "FLY"
-data "Boosts" "UnlockSpell(Projectile_Fly_Spell_Moonfinger)"
-
 new entry "MAG_DAWNFORGED_LIGHT"
 type "StatusData"
 using "MAG_LATHANDERS_LIGHT"
@@ -16,3 +11,11 @@ new entry "MAG_DAWNFORGED_LIGHT_TECHNICAL"
 type "StatusData"
 using "MAG_LATHANDERS_LIGHT_TECHNICAL"
 data "OnRemoveFunctors" "RemoveStatus(MAG_DAWNFORGED_LIGHT);RemoveStatus(MAG_LATHANDERS_BLESSING_RESURRECT_RESOURCE)"
+
+new entry "MOONFINGER_FLY"
+type "StatusData"
+using "FLY"
+data "DisplayName" "hbbc372f8g9756g4f18g941fg5e9214f947a7"
+data "Description" "hf1185af6g082bg4fb4gae16g263ce5435b03"
+data "Boosts" "UnlockSpell(Projectile_Moonfinger_Fly_Spell)"
+
