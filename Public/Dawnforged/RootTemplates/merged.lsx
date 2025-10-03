@@ -66,7 +66,7 @@
                     <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Greataxe_A_2" />
                     <attribute id="MapKey" type="FixedString" value="d63151b1-4cc1-45d6-948e-60b3b620058a" />
                     <attribute id="Name" type="LSString" value="Tonitrolus" />
-                    <attribute id="ParentTemplateId" type="FixedString" value="ce8a894c-3dc6-48dc-bb8f-af5390890d43" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="7bbc2408-14de-4129-bab0-db29927b7f43" />
                     <attribute id="Stats" type="FixedString" value="Tonitrolus" />
                     <attribute id="Type" type="FixedString" value="item" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
