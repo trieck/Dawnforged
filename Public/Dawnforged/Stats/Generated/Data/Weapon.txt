@@ -8,7 +8,7 @@ data "Damage Type" "Bludgeoning"
 data "Weight" "1.00"
 data "ValueOverride" "7500"
 data "Boosts" "RollBonus(Attack, 5);AC(5);ActionResource(Movement, 6, 0)"
-data "BoostsOnEquipMainHand" "UnlockSpell(Shout_RadianceOfTheDawn)"
+data "BoostsOnEquipMainHand" "UnlockSpell(Shout_Moonburst_of_Selûne)"
 data "PassivesOnEquip" "ExtraAttack"
 data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(3d6,Radiant);WeaponEnchantment(1)"
 
