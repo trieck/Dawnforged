@@ -14,7 +14,7 @@ data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(3d6,Radiant);WeaponEn
 
 new entry "Argentum"
 type "weapon"
-using "WPN_Greatsword_Gith"
+using "MAG_Githborn_Mindcrusher_Greatsword"
 data "RootTemplate" "4afeda45-5957-410c-b13c-e37e0824d7ed"
 data "Rarity" "Legendary"
 data "Damage" "2d6"

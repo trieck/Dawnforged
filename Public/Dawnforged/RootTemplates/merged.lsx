@@ -49,7 +49,7 @@
                 <node id="GameObjects">
                     <attribute id="Description" type="TranslatedString" handle="h8aff4f28g0807g47bcg88fcg75f55b394aba" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h7eb5f572g06e4g4a77g9b88g0a91a5aa9679" version="1" />
-                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Quarterstaff_A_0" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Quarterstaff_A_1" />
                     <attribute id="MapKey" type="FixedString" value="1638043b-c566-41ac-8d36-a2aaedb7e32c" />
                     <attribute id="Name" type="LSString" value="Patentibus" />
                     <attribute id="ParentTemplateId" type="FixedString" value="96e2abaf-78ff-4dcb-a6a3-a5f0c348bd9f" />
