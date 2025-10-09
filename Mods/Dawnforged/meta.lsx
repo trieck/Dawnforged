@@ -20,10 +20,8 @@
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="Unique weapons and treasures forged in the light of the Morninglord."/>
                     <attribute id="Folder" type="LSString" value="Dawnforged"/>
-                    <attribute id="GMTemplate" type="FixedString" value=""/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSString" value=""/>
-                    <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="FixedString" value="Dawnforged"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
