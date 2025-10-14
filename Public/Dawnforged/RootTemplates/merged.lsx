@@ -151,12 +151,13 @@
                 <node id="GameObjects">
                     <attribute id="Description" type="TranslatedString" handle="4eb38fc0-a906-4cf2-bcb9-f03f801df7f9" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="727369c2-ea46-4f8d-81e9-742fc4c6602b" version="1" />
-                    <attribute id="Icon" type="FixedString" value="Item_MAG_ChargedLightning_BonusAC_Robe" />
+                    <attribute id="Icon" type="FixedString" value="Item_ARM_Robe_B_2" />
                     <attribute id="MapKey" type="FixedString" value="a997b51b-2f68-47da-9970-ef7eca06e4e2" />
                     <attribute id="Name" type="LSString" value="Gravebinders_Mantle" />
-                    <attribute id="ParentTemplateId" type="FixedString" value="f28c3264-8cdb-46c1-800f-a47a01e49efc" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="7ec40cde-4d96-4352-b93e-cdcab6383337" />
                     <attribute id="Stats" type="FixedString" value="Gravebinders_Mantle" />
                     <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="47471e6f-0055-5232-091e-40224e86eedd"/>
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
                     <children>
                         <node id="GameMaster" />
@@ -236,6 +237,21 @@
                         <node id="GameMaster" />
                     </children>
                 </node>
+
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h18be0eb8g4d5fg4990gbc20gbe1623f0d3b8" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="he37a0923g266fg445bg9fcfgb9126a752031" version="1" />
+                    <attribute id="MapKey" type="FixedString" value="9c8268ba-f57e-423d-a0cd-0576254dc691" />
+                    <attribute id="Name" type="LSString" value="Ring_of_the_Silver_Threshold" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c4194cee-6f9a-4c5e-8327-816d44c86316" />
+                    <attribute id="Stats" type="FixedString" value="Ring_of_the_Silver_Threshold" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
             </children>
         </node>
     </region>
