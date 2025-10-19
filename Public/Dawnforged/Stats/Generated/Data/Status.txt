@@ -9,7 +9,7 @@ data "Icon" "PassiveFeature_LathandersLight"
 data "Boosts" "GameplayLight(18,false,1.0,true);StatusImmunity(BLINDED);StatusImmunity(BLINDNESS);StatusImmunity(BLINDED_DARKNESS);StatusImmunity(VOID_BLINDED)"
 data "AuraRadius" "18"
 data "StackId" ""
-data "StatusGroups" "SG_Light;SG_RemoveOnRespec"
+data "StatusGroups" "SG_Light"
 data "StatusEffect" "fbe9316d-b39f-4a38-8bef-79787ee2602f"
 
 new entry "MOONFINGER_FLY"
