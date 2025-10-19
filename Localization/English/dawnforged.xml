@@ -26,7 +26,7 @@
   <content contentuid="h4ef4fbe7g9c4ag46d6g9e75g8d3c17e52d56" version="1">Moonfinger</content>
   <content contentuid="h8f3bdc81g46ddg4b05g87b0g21a2e61db0ec" version="1">It glints only under starlight and never casts a shadow</content>
   <content contentuid="hbbc372f8g9756g4f18g941fg5e9214f947a7" version="1">Fly (Moonfinger)</content>
-  <content contentuid="hf1185af6g082bg4fb4gae16g263ce5435b03" version="1">Take flight up to 60m, borne on moonlight and wind.</content>
+  <content contentuid="hf1185af6g082bg4fb4gae16g263ce5435b03" version="1">Take flight up to <LSTag Tooltip="Distance">60m</LSTag>, borne on moonlight and wind.</content>
   <content contentuid="he0f8a879g9ed0g4765gad81g144a58a1dd3b" version="1">Moon Bomb</content>
   <content contentuid="h77d81a59g5579g45f1gbb76g0b4ae5754049" version="1">Hurl a condensed sphere of moonlight that bursts in a dazzling flash on impact, searing foes with 3d6 Radiant damage. Agile targets may dodge the worst of it, taking only half damage.</content>
   <content contentuid="hb901158eg8f15g458ag9b7dg10fc28b8fa53" version="1">Second Dawn</content>
@@ -41,7 +41,7 @@
   <content contentuid="h1aa5309dg9384g44c6gb856g48cd56546240" version="1">The Morninglord’s Mantle</content>
   <content contentuid="h4e405433g44c4g4184g8701gef0837c70947" version="1">A relic said to have belonged to St. Sollars the Twice-Martyred, who carried Lathander’s light into lands steeped in shadow.</content>
   <content contentuid="hf7ab1010g2e13g40eegaba0g8c4d05670bd4" version="1">Dawnforged Light</content>
-  <content contentuid="h8f7cf2a5g8a86g45bega2e3g8b8984513df0" version="1">Radiates a brilliant aura of dawnlight, blinding undead and empowering allies within 18m.</content>
+  <content contentuid="h8f7cf2a5g8a86g45bega2e3g8b8984513df0" version="1">Radiates a brilliant aura of dawnlight within an <LSTag Tooltip="Distance">18m</LSTag> radius, granting immunity to all types of blindness.</content>
   <content contentuid="hfbd269a3g8558g4d7cga786g045f7bb532bb" version="1">Moonburst of Selûne</content>
   <content contentuid="h0e972ce5g43a0g4169g9c47ge6d482aceeaf" version="1">A shimmering wave of moonlight emanates from you, searing the corrupted and comforting the pure.</content>
   <content contentuid="h18be0eb8g4d5fg4990gbc20gbe1623f0d3b8" version="1">Ring of the Silver Threshold</content>
