@@ -20,7 +20,7 @@ data "Boosts" "CreateLight(9,1.0,0.8,0.4,1.0,true)"
 data "AuraRadius" "9"
 data "StackId" "MAG_DAWNFORGED_LIGHT"
 data "StatusGroups" "SG_Light"
-data "StatusEffect" "33b7386f-4737-49ba-a3b7-019d194ea5ad"
+data "StatusEffect" "7318e3cf-fd8d-4383-bfe4-342078649edb"
 data "AuraStatuses" "TARGET:IF(Enemy()): ApplyStatus(BLINDNESS,50,-1);TARGET:IF((Self() or Party()) and not Enemy()): ApplyStatus(MAG_LATHANDERS_SIGHT)"
 data "StatusPropertyFlags" "IgnoreResting"
 
