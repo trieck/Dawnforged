@@ -41,7 +41,7 @@
   <content contentuid="h1aa5309dg9384g44c6gb856g48cd56546240" version="1">The Morninglord’s Mantle</content>
   <content contentuid="h4e405433g44c4g4184g8701gef0837c70947" version="1">A relic said to have belonged to St. Sollars the Twice-Martyred, who carried Lathander’s light into lands steeped in shadow.</content>
   <content contentuid="hf7ab1010g2e13g40eegaba0g8c4d05670bd4" version="1">Dawnforged Light</content>
-  <content contentuid="h8f7cf2a5g8a86g45bega2e3g8b8984513df0" version="1">Radiates a brilliant aura of dawnlight within a <LSTag Tooltip="Distance">9m</LSTag> radius, granting immunity to all types of blindness.</content>
+  <content contentuid="h8f7cf2a5g8a86g45bega2e3g8b8984513df0" version="1">Radiates a brilliant aura of light within a <LSTag Tooltip="Distance">9m</LSTag> radius, granting immunity to all types of blindness to the party and blinding enemies <LSTag>50%</LSTag> of the time.</content>
   <content contentuid="hc9a5f370g48f4g4706g954ag4df8260d52ad" version="1">Lathander's Sight</content>
   <content contentuid="h7b8239e9gcaa4g48f2gab1agd90140b3f920" version="1">Bathed in the Morninglord’s light, this creature cannot be blinded.</content>
   <content contentuid="hfbd269a3g8558g4d7cga786g045f7bb532bb" version="1">Moonburst of Selûne</content>
