@@ -252,6 +252,36 @@
                     </children>
                 </node>
 
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h25551b1ag8eceg44c4g8408g74c7e9d025a0" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hb2785dc5g0276g4cbaga101g597d8af42f7d" version="1" />
+                    <attribute id="MapKey" type="FixedString" value="315500b0-02d4-4827-a021-bc418e97ffc1" />
+                    <attribute id="Name" type="LSString" value="Dawnforged_Hammer" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="e6b027a7-40bb-445e-b199-38b08d2b4832" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_WarHammer_A_1" />
+                    <attribute id="Stats" type="FixedString" value="Dawnforged_Hammer" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3fa10727g7f47g49d4g9ed9g7f88039f5006" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hb70c9a67g6e12g427cg82d9g58254c026506" version="1" />
+                    <attribute id="MapKey" type="FixedString" value="211bc74f-29d8-4d29-89fe-21ac1d5b8ee6" />
+                    <attribute id="Name" type="LSString" value="Sunpiercer" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="b674ea52-2b6f-4977-b6d5-98810304a98b" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_GTY_HeavyCrossbow_A_GLOW" />
+                    <attribute id="Stats" type="FixedString" value="Sunpiercer" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
             </children>
         </node>
     </region>

@@ -34,3 +34,8 @@ new subtable "-1"
 object category "I_Morninglords_Mantle",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_Ring_of_the_Silver_Threshold",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Dawnforged_Hammer",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_Sunpiercer",1,0,0,0,0,0,0,0
+
