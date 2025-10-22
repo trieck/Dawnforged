@@ -70,7 +70,7 @@ data "SpellSuccess" "DealDamage(3d10+Level,Radiant,Magical)"
 data "SpellFail" "DealDamage((3d10+Level)/2,Radiant,Magical)"
 data "TooltipDamageList" "DealDamage(3d10+Level,Radiant)"
 data "UseCosts" "BonusActionPoint:1;ChannelDivinity:1"
-data "AreaRadius" "18"
+data "AreaRadius" "9"
 
 new entry "Target_MAG_Dawnstrike"
 type "SpellData"
