@@ -7,8 +7,6 @@
             <node id="GameObjects">
                 <attribute id="FadeGroup" type="FixedString" value="" />
                 <attribute id="Flag" type="int32" value="1" />
-                <attribute id="FadeGroup" type="FixedString" value="" />
-		<attribute id="Flag" type="int32" value="1" />
 		<attribute id="GravityType" type="uint8" value="2" />
 		<attribute id="CanBePickedUp" type="bool" value="True" />
                 <attribute id="LevelName" type="FixedString" value="TUT_Avernus_C" />
