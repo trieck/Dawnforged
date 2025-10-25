@@ -47,7 +47,7 @@ data "Unique" "1"
 
 new entry "Morninglords_Mantle"
 type "armor"
-using "MAG_Bhaalist_Armor"
+using "ARM_StuddedLeather_Body_2"
 data "RootTemplate" "443b2caf-8d36-42cf-b389-d774229ed18c"
 data "Rarity" "Legendary"
 data "ValueOverride" "5000"
