@@ -1,3 +1,4 @@
 Ext.Utils.Print("[Dawnforged] BootstrapServer.lua loaded successfully.")
 
-Ext.Require("DawnforgedLight.lua")
+Ext.Require("shared/_Init.lua")
+
