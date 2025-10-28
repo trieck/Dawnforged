@@ -3,7 +3,7 @@
 ---@param files string[]
 function RequireFiles(path, files)
     for _, file in pairs(files) do
-        print(string.format("   [Dawnforged] Requiring file: %s%s.lua", path, file))
+        _P(string.format("   [Dawnforged] Requiring file: %s%s.lua", path, file))
         -- DO NOT USE THE FOLLOWING LINE IN PRODUCTION, ONLY FOR TESTING PURPOSES
         -- Ext.Utils.Include("8339dd39-628f-4e25-b885-66865f16afa9", string.format("%s%s.lua", path, file))
         Ext.Require(string.format("%s%s.lua", path, file))
@@ -66,4 +66,4 @@ Ext.Events.SessionLoaded:Subscribe(function()
     Ext.Osiris.RegisterListener("LevelGamePlayReady", 2, "after", LevelGamePlayReady)
 end)
 
-Ext.Utils.Print("   [Dawnforged] _Init.lua loaded successfully.")
+_P("   [Dawnforged] _Init.lua loaded successfully.")

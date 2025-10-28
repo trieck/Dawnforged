@@ -21,7 +21,7 @@
                  <node id="GameObjects">
                     <attribute id="Description" type="TranslatedString" handle="hc1aa21b3g0aa5g4fadg9425g43c433be36c6" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hc1df4ef1g6d29g4341g91f2gd91b4645fbe8" version="1" />
-                    <attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Greatsword_A_LowHP_IncreasedDamagePsychic" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Greatsword_A_GLOW" />
                     <attribute id="MapKey" type="FixedString" value="4afeda45-5957-410c-b13c-e37e0824d7ed" />
                     <attribute id="Name" type="LSString" value="Argentum" />
                     <attribute id="ParentTemplateId" type="FixedString" value="1ebdc61e-3bc6-4da5-adb9-34dd839b012a" />

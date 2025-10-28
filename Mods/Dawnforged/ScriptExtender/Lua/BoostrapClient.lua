@@ -1,1 +1,1 @@
-Ext.Utils.Print("[Dawnforged] BootstrapClient.lua loaded successfully.")
+_P("[Dawnforged] BootstrapClient.lua loaded successfully.")

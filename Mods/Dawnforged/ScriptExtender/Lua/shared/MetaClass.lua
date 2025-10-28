@@ -40,7 +40,7 @@ function _Meta.Class(name, base)
                 fun(self)
             end, debug.traceback)
             if not ok then
-                _PE(string.format("[%s] OnNextTick error:\n%s", self.__name, err))
+                _PE(string.format("[%s] OnNextTick error: %s", self.__name, err))
             end
         end)
     end
@@ -59,7 +59,7 @@ function _Meta.Class(name, base)
             if ticksPassed >= ticks then
                 local ok, err = xpcall(function() fun(self) end, debug.traceback)
                 if not ok then
-                    _PE(string.format("[%s] AfterTicks() error:\n%s", self.__name, err))
+                    _PE(string.format("[%s] AfterTicks() error: %s", self.__name, err))
                 end
                 Ext.Events.Tick:Unsubscribe(eventID)
             end
@@ -69,7 +69,7 @@ function _Meta.Class(name, base)
     -- Run a function after time in milliseconds on a tick granularity
     function class:AfterTime(ms, fun)
         if type(fun) ~= "function" or type(ms) ~= "number" or ms <= 0 then
-            Ext.Utils.PrintWarning(string.format("[%s] AfterTime expected (number, function), got (%s, %s)", self.__name, type(ms), type(fun)))
+            _PW(string.format("[%s] AfterTime expected (number, function), got (%s, %s)", self.__name, type(ms), type(fun)))
             return
         end
 
@@ -79,7 +79,7 @@ function _Meta.Class(name, base)
             if Ext.Utils.MonotonicTime() - startTime >= ms then
                 local ok, err = xpcall(function() fun(self) end, debug.traceback)
                 if not ok then
-                    Ext.Utils.PrintError(string.format("[%s] AfterTime() error:\n%s", self.__name, err))
+                    _PE(string.format("[%s] AfterTime() error: %s", self.__name, err))
                 end
                 Ext.Events.Tick:Unsubscribe(eventID)
             end
@@ -89,7 +89,7 @@ function _Meta.Class(name, base)
     -- Run a function after time in milliseconds
     function class:AfterTimeReal(ms, fun)
         if type(fun) ~= "function" or type(ms) ~= "number" or ms <= 0 then
-            Ext.Utils.PrintWarning(string.format("[%s] AfterTimeReal expected (number, function), got (%s, %s)", self.__name, type(ms), type(fun)))
+            _PW(string.format("[%s] AfterTimeReal expected (number, function), got (%s, %s)", self.__name, type(ms), type(fun)))
             return
         end
 
@@ -97,19 +97,18 @@ function _Meta.Class(name, base)
         timer = Ext.Timer.WaitFor(ms, function()
             local ok, err = xpcall(function() fun(self) end, debug.traceback)
             if not ok then
-                Ext.Utils.PrintError(string.format("[%s] AfterTimeReal() error:\n%s", self.__name, err))
+                _PE(string.format("[%s] AfterTimeReal() error:\n%s", self.__name, err))
             end            
         end)
     end
 
-    -- Add an item to a container (inventory, chest, etc)
+    -- Add an item to a container (inventory, chest, etc.)
     function class:AddItemToContainer(itemTemplate, containerGuid)
         local item = Osi.CreateAtObject(itemTemplate, containerGuid, 1, 1, "", 1)
         if item then
             Osi.ToInventory(item, containerGuid, 1)
-            _P(string.format("[%s] Inserted %s into %s", self.__name, itemTemplate, containerGuid))
         else
-            _PE(string.format("[%s] Failed to create %s", self.__name, itemTemplate))
+            _PE(string.format("[%s] Failed to create %s at %s.", self.__name, itemTemplate, containerGuid))
         end
     end
 

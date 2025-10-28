@@ -60,7 +60,7 @@ data "SpellActionType" ""
 data "UseCosts" ""
 data "Cooldown" ""
 
-new entry "Shout_Moonburst_of_Selûne"
+new entry "Shout_Dawnburst_of_Lathander"
 type "SpellData"
 using "Shout_RadianceOfTheDawn"
 data "DisplayName" "hfbd269a3g8558g4d7cga786g045f7bb532bb"
