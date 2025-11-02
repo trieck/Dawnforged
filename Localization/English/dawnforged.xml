@@ -5,7 +5,7 @@
   <content contentuid="hc1df4ef1g6d29g4341g91f2gd91b4645fbe8" version="1">Argentum</content>
   <content contentuid="hc1aa21b3g0aa5g4fadg9425g43c433be36c6" version="1">Forged in the first light of dawn, Argentum shines with the brilliance of Lathander’s grace. Each strike burns away shadow, blinding the wicked and purging the undead.</content>
   <content contentuid="h9ac3b253g6c43g4600g9b26ga8f92332ab84" version="1">Tonitrum</content>
-  <content contentuid="h1f76d3d5gc1a1g467dg92ceg507f9ca5270a" version="1">A Sword of Thunder</content>
+  <content contentuid="h1f76d3d5gc1a1g467dg92ceg507f9ca5270a" version="1">Forged in the first light of dawn and quenched in stormcloud tears, Tonitrum sings with the thunderous joy of Lathander’s creation. Each strike carries the light of renewal and the fury of the storm — cleansing the world in radiance and sound.</content>
   <content contentuid="h7eb5f572g06e4g4a77g9b88g0a91a5aa9679" version="1">Patentibus</content>
   <content contentuid="h8aff4f28g0807g47bcg88fcg75f55b394aba" version="1">A Staff of Opening</content>
   <content contentuid="h1e7141c6g2cf5g49c6ga390gdd1d6721383d" version="1">Tonitrolus</content>
@@ -14,8 +14,8 @@
   <content contentuid="hf4a8a6bdgb761g45e8g823cg7fee7be50e92" version="1">A bitter dagger</content>
   <content contentuid="haef54d3dg4602g436fg87f4gfb14543bfe78" version="1">Malice</content>
   <content contentuid="h14a39b16g2226g4fc3gb895g1e3e25444a50" version="1">Another bitter dagger</content>
-  <content contentuid="hc5876b7fg8db7g4e9ag8e89g7c56f343d1a6" version="1">Verdant Fang</content>
-  <content contentuid="h556a1a5cg7893g4d2bga89ag798e466340c7" version="1">A scimitar channeling the essence of the forest to enhance the druid's powers</content>
+  <content contentuid="hc5876b7fg8db7g4e9ag8e89g7c56f343d1a6" version="1">Jubar</content>
+  <content contentuid="h556a1a5cg7893g4d2bga89ag798e466340c7" version="1">A scimitar channeling the Morninglord's light to enhance the druid's powers</content>
   <content contentuid="h74f6f1e6g6a8cg4e82g88a5g914ea22b4950" version="1">Moonshadow</content>
   <content contentuid="h7e2ad7e8g185fg4f6egb2beg9a2de1560e74" version="1"> A nimble scimitar that glimmers with moonlight, granting swiftness and the power to blind foes with its radiant strikes</content>
   <content contentuid="h3b21f8e6ge85dg4d4cgafedgcf649d000c54" version="1">Warpbinder Amulet</content>
@@ -55,4 +55,6 @@
   <content contentuid="h88c4e86fg6e23g4232gbb13g5cd3681708da" version="1">You channel the breaking light of Lathander through your weapon, turning a single blow into a burst of holy brilliance. The strike carries both steel and sunrise—its impact sears the wicked and blinds those who dwell in shadow.</content>
   <content contentuid="h3fa10727g7f47g49d4g9ed9g7f88039f5006" version="1">Sunpiercer</content>
   <content contentuid="hb70c9a67g6e12g427cg82d9g58254c026506" version="1">Forged in the dim forges of the Deep and sanctified beneath the morning sun, Sunpiercer carries the faith of one who turned his back on shadow. Each bolt it fires burns with the first light of day — a judgment upon the darkness that once claimed its wielder.</content>
+  <content contentuid="hee6fde79g43bbg4816gab53g6e775076911a" version="1">Touch of the Morninglord</content>
+  <content contentuid="h46a451b5g02c4g4cd5g8839g88020c6d036c" version="1">Channel the Morninglord’s blazing light into your foe, burning away corruption and shadow with searing radiant power.</content>
 </contentList>
