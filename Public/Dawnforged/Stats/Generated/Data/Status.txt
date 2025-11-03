@@ -20,7 +20,7 @@ data "AuraRadius" "9"
 data "StackId" "MAG_DAWNFORGED_LIGHT"
 data "StatusGroups" "SG_Surface;SG_Light"
 data "StatusEffect" "7318e3cf-fd8d-4383-bfe4-342078649edb"
-data "AuraStatuses" "TARGET:IF(Enemy()): ApplyStatus(MAG_LATHANDERS_LIGHT_BLINDED);TARGET:IF((Self() or Party()) and not Enemy()): ApplyStatus(MAG_LATHANDERS_SIGHT)"
+data "AuraStatuses" "TARGET:IF(Combat() and Character() and Enemy() and (Tagged('FIEND') or Tagged('UNDEAD') or Tagged('UNDEAD_BEAST')):ApplyStatus(MAG_LATHANDERS_LIGHT_BLIND_AURA_TARGET, 100, -1);TARGET:IF((Self() or Party()) and not Enemy()): ApplyStatus(MAG_LATHANDERS_SIGHT)"
 data "StatusPropertyFlags" "IgnoreResting"
 
 new entry "MOONFINGER_FLY"

@@ -40,7 +40,7 @@
   <content contentuid="h1aa5309dg9384g44c6gb856g48cd56546240" version="1">The Morninglord’s Mantle</content>
   <content contentuid="h4e405433g44c4g4184g8701gef0837c70947" version="1">A relic said to have belonged to St. Sollars the Twice-Martyred, who carried Lathander’s light into lands steeped in shadow.</content>
   <content contentuid="hf7ab1010g2e13g40eegaba0g8c4d05670bd4" version="1">Dawnforged Light</content>
-  <content contentuid="h8f7cf2a5g8a86g45bega2e3g8b8984513df0" version="1">Radiates a brilliant aura of light within a <LSTag Tooltip="Distance">9m</LSTag> radius, granting immunity to all types of blindness to the party and blinding enemies <LSTag>50%</LSTag> of the time.</content>
+  <content contentuid="h8f7cf2a5g8a86g45bega2e3g8b8984513df0" version="1">Radiates a brilliant aura of light within a <LSTag Tooltip="Distance">9m</LSTag> radius, granting immunity to all types of blindness to the party and blinding fiends and the undead.</content>
   <content contentuid="hc9a5f370g48f4g4706g954ag4df8260d52ad" version="1">Lathander's Sight</content>
   <content contentuid="h7b8239e9gcaa4g48f2gab1agd90140b3f920" version="1">Bathed in the Morninglord’s light, this creature cannot be blinded.</content>
   <content contentuid="hfbd269a3g8558g4d7cga786g045f7bb532bb" version="1">Dawnburst of Lathander</content>
@@ -57,4 +57,6 @@
   <content contentuid="hb70c9a67g6e12g427cg82d9g58254c026506" version="1">Forged in the dim forges of the Deep and sanctified beneath the morning sun, Sunpiercer carries the faith of one who turned his back on shadow. Each bolt it fires burns with the first light of day — a judgment upon the darkness that once claimed its wielder.</content>
   <content contentuid="hee6fde79g43bbg4816gab53g6e775076911a" version="1">Touch of the Morninglord</content>
   <content contentuid="h46a451b5g02c4g4cd5g8839g88020c6d036c" version="1">Channel the Morninglord’s blazing light into your foe, burning away corruption and shadow with searing radiant power.</content>
+  <content contentuid="h90402470gf5b4g418ag938cg98dcd928e762" version="1">Dawn Crusher</content>
+  <content contentuid="hf2ac5c0dga0f5g4784ga703g7fe217c9af5c" version="1">Channel the Morninglord’s radiant fury into a single, devastating strike. Blinding light erupts on impact, crushing shadow and corruption beneath the dawn’s first fire.</content>
 </contentList>

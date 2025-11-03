@@ -281,7 +281,6 @@
                         <node id="GameMaster" />
                     </children>
                 </node>
-
             </children>
         </node>
     </region>

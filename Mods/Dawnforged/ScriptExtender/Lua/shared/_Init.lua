@@ -4,8 +4,6 @@
 function RequireFiles(path, files)
     for _, file in pairs(files) do
         _P(string.format("   [Dawnforged] Requiring file: %s%s.lua", path, file))
-        -- DO NOT USE THE FOLLOWING LINE IN PRODUCTION, ONLY FOR TESTING PURPOSES
-        -- Ext.Utils.Include("8339dd39-628f-4e25-b885-66865f16afa9", string.format("%s%s.lua", path, file))
         Ext.Require(string.format("%s%s.lua", path, file))
     end
 end
@@ -29,14 +27,14 @@ function LevelGamePlayReady(_LevelName, _IsEditorMode)
     local chest = "a0a59732-eb0c-489c-a8cb-488ab858de28" -- GustavDev/TUT_Avernus_C/Items/S_Chest_Secret_Grenades
 
     local DawnforgedItems = {
-        ShadowHeart = "2f5636ff-8f50-47cd-9e3e-267ee39e806b",
+        ShadowsHeart = "2f5636ff-8f50-47cd-9e3e-267ee39e806b",
         Argentum = "4afeda45-5957-410c-b13c-e37e0824d7ed",
         Tonitrum = "b9a39f76-73a8-4d6d-8f83-d93d3e0d015c",
         Patentibus = "1638043b-c566-41ac-8d36-a2aaedb7e32c",
         Tonitrolus = "d63151b1-4cc1-45d6-948e-60b3b620058a",
         Malevolence = "2d0a3da2-d188-425e-9a55-77e2035f713b",
         Malice = "8dd8e38c-43fe-4b18-a41e-b806e78c3f62",
-        VerdantFang = "ca6f5186-f56b-492e-8720-fbcab7a38b2c",
+        Jubar = "ca6f5186-f56b-492e-8720-fbcab7a38b2c",
         Moonshadow = "1186205f-5247-4015-824b-87b6ccf3aeb7",
         WarpBinder = "91d269b6-6b9d-4c24-a107-50e7765c1117",
         GravebindersMantle = "a997b51b-2f68-47da-9970-ef7eca06e4e2",
