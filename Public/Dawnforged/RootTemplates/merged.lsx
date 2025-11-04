@@ -5,8 +5,8 @@
         <node id="Templates">
             <children> 
                 <node id="GameObjects">
-                    <attribute id="Description" type="TranslatedString" handle="habbebf9032694fa1880fcd874fd4becd" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h5eec0cb422f845c8a1abe70393d59838" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h1037f1fbgd8fdg47a3ga9f5g602f8e783551" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="he31a9393g336cg4b49gae37g887f69aefc33" version="1" />
                     <attribute id="Icon" type="FixedString" value="Item_UNI_CRE_HUM_Sun_Mace_BloodOfLathander_GLOW" />
                     <attribute id="MapKey" type="FixedString" value="2f5636ff-8f50-47cd-9e3e-267ee39e806b" />
                     <attribute id="Name" type="LSString" value="Shadows_Heart" />

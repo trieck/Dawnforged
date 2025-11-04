@@ -1,6 +1,3 @@
----Ext.Require files at the path
----@param path string
----@param files string[]
 function RequireFiles(path, files)
     for _, file in pairs(files) do
         _P(string.format("   [Dawnforged] Requiring file: %s%s.lua", path, file))
