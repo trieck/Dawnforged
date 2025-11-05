@@ -1,4 +1,4 @@
-_P("[Dawnforged] BootstrapServer.lua loaded successfully.")
+Ext.Utils.Print("   [Dawnforged] BootstrapServer.lua loaded successfully.")
 
 Ext.Require("shared/_Init.lua")
 

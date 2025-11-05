@@ -1,5 +1,5 @@
 PixieLib = Meta.Class("PixieLib")
 
 function PixieLib:init()
-    _P("PixieLib initialized.")
+    Ext.Utils.Print("PixieLib initialized.")
 end

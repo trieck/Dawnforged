@@ -30,7 +30,7 @@ function _Meta.Class(name, base)
     --Run a function on next tick
     function class:OnNextTick(fun)
         if type(fun) ~= "function" then
-            _PE(string.format("[%s] OnNextTick expected function, got %s", self.__name, type(fun)))
+            Ext.Utils.PrintError(string.format("[%s] OnNextTick expected function, got %s", self.__name, type(fun)))
             return
         end
 
@@ -40,7 +40,7 @@ function _Meta.Class(name, base)
                 fun(self)
             end, debug.traceback)
             if not ok then
-                _PE(string.format("[%s] OnNextTick error: %s", self.__name, err))
+                Ext.Utils.PrintError(string.format("[%s] OnNextTick error: %s", self.__name, err))
             end
         end)
     end
@@ -48,7 +48,7 @@ function _Meta.Class(name, base)
     -- Run a function after a number of ticks
     function class:AfterTicks(ticks, fun)
         if type(fun) ~= "function" or type(ticks) ~= "number" or ticks <= 0 then
-            _PW(string.format("[%s] AfterTicks expected (number, function), got (%s, %s)", self.__name, type(ticks), type(fun)))
+            Ext.Utils.PrintWarning(string.format("[%s] AfterTicks expected (number, function), got (%s, %s)", self.__name, type(ticks), type(fun)))
             return
         end
 
@@ -59,7 +59,7 @@ function _Meta.Class(name, base)
             if ticksPassed >= ticks then
                 local ok, err = xpcall(function() fun(self) end, debug.traceback)
                 if not ok then
-                    _PE(string.format("[%s] AfterTicks() error: %s", self.__name, err))
+                    Ext.Utils.PrintError(string.format("[%s] AfterTicks() error: %s", self.__name, err))
                 end
                 Ext.Events.Tick:Unsubscribe(eventID)
             end
@@ -69,7 +69,7 @@ function _Meta.Class(name, base)
     -- Run a function after time in milliseconds on a tick granularity
     function class:AfterTime(ms, fun)
         if type(fun) ~= "function" or type(ms) ~= "number" or ms <= 0 then
-            _PW(string.format("[%s] AfterTime expected (number, function), got (%s, %s)", self.__name, type(ms), type(fun)))
+            Ext.Utils.PrintWarning(string.format("[%s] AfterTime expected (number, function), got (%s, %s)", self.__name, type(ms), type(fun)))
             return
         end
 
@@ -79,7 +79,7 @@ function _Meta.Class(name, base)
             if Ext.Utils.MonotonicTime() - startTime >= ms then
                 local ok, err = xpcall(function() fun(self) end, debug.traceback)
                 if not ok then
-                    _PE(string.format("[%s] AfterTime() error: %s", self.__name, err))
+                    Ext.Utils.PrintError(string.format("[%s] AfterTime() error: %s", self.__name, err))
                 end
                 Ext.Events.Tick:Unsubscribe(eventID)
             end
@@ -89,7 +89,7 @@ function _Meta.Class(name, base)
     -- Run a function after time in milliseconds
     function class:AfterTimeReal(ms, fun)
         if type(fun) ~= "function" or type(ms) ~= "number" or ms <= 0 then
-            _PW(string.format("[%s] AfterTimeReal expected (number, function), got (%s, %s)", self.__name, type(ms), type(fun)))
+            Ext.Utils.PrintWarning(string.format("[%s] AfterTimeReal expected (number, function), got (%s, %s)", self.__name, type(ms), type(fun)))
             return
         end
 
@@ -97,7 +97,7 @@ function _Meta.Class(name, base)
         timer = Ext.Timer.WaitFor(ms, function()
             local ok, err = xpcall(function() fun(self) end, debug.traceback)
             if not ok then
-                _PE(string.format("[%s] AfterTimeReal() error:\n%s", self.__name, err))
+                Ext.Utils.PrintError(string.format("[%s] AfterTimeReal() error:\n%s", self.__name, err))
             end            
         end)
     end
@@ -108,7 +108,7 @@ function _Meta.Class(name, base)
         if item then
             Osi.ToInventory(item, containerGuid, 1)
         else
-            _PE(string.format("[%s] Failed to create %s at %s.", self.__name, itemTemplate, containerGuid))
+            Ext.Utils.PrintError(string.format("[%s] Failed to create %s at %s.", self.__name, itemTemplate, containerGuid))
         end
     end
 

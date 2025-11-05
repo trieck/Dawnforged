@@ -1,6 +1,6 @@
 function RequireFiles(path, files)
     for _, file in pairs(files) do
-        _P(string.format("   [Dawnforged] Requiring file: %s%s.lua", path, file))
+        Ext.Utils.Print(string.format("   [Dawnforged] Requiring file: %s%s.lua", path, file))
         Ext.Require(string.format("%s%s.lua", path, file))
     end
 end
@@ -10,16 +10,16 @@ RequireFiles("shared/", {
     "PixieLib"
 })
 
-function LevelGamePlayReady(_LevelName, _IsEditorMode)
-    _P(string.format("   [Dawnforged] LevelGamePlayReady called for level '%s'.", tostring(_LevelName)))
+function LevelLoaded(_LevelName)
+    Ext.Utils.Print(string.format("   [Dawnforged] LevelLoaded called for level '%s'.", tostring(_LevelName)))
 
     -- Only run on the Nautiloid tutorial map
     if not _LevelName or not _LevelName:find("TUT_Avernus_C") then
-        _P(string.format("   [Dawnforged] Skipping item injection; current level is '%s'", tostring(_LevelName)))
+        Ext.Utils.Print(string.format("   [Dawnforged] Skipping item injection; current level is '%s'", tostring(_LevelName)))
         return
     end
 
-    _P("   [Dawnforged] LevelGamePlayReady triggered...Initializing...")
+    Ext.Utils.Print("   [Dawnforged] LevelLoaded triggered...Initializing...")
 
     local chest = "a0a59732-eb0c-489c-a8cb-488ab858de28" -- GustavDev/TUT_Avernus_C/Items/S_Chest_Secret_Grenades
 
@@ -48,17 +48,15 @@ function LevelGamePlayReady(_LevelName, _IsEditorMode)
     for name, uuid in pairs(DawnforgedItems) do
         local ok, err = pcall(function()
             PixieLib:AddItemToContainer(uuid, chest)
-            _P(string.format("   [Dawnforged] Inserted %s (%s) into chest.", name, uuid))
+            Ext.Utils.Print(string.format("   [Dawnforged] Inserted %s (%s) into chest.", name, uuid))
         end)
         if not ok then
-            _P(string.format("   [Dawnforged] Failed to insert %s: %s", name, err))
+            Ext.Utils.PrintError(string.format("   [Dawnforged] Failed to insert %s: %s", name, err))
         end
     end
 end
 
-Ext.Events.SessionLoaded:Subscribe(function()
-    _P("   [Dawnforged] Session loaded, registering LevelGamePlayReady listener.")
-    Ext.Osiris.RegisterListener("LevelGamePlayReady", 2, "after", LevelGamePlayReady)
-end)
+Ext.Utils.Print("   [Dawnforged] Registering LevelLoaded listener.")
+Ext.Osiris.RegisterListener("LevelLoaded", 1, "after", LevelLoaded)
 
-_P("   [Dawnforged] _Init.lua loaded successfully.")
+Ext.Utils.Print("   [Dawnforged] _Init.lua loaded successfully.")
