@@ -57,7 +57,6 @@ data "Description" "hf1185af6g082bg4fb4gae16g263ce5435b03;1"
 data "TargetRadius" "30"
 data "SpellActionType" ""
 data "UseCosts" "Movement:Distance*0.125"
-data "Cooldown" "OncePerTurn"
 
 new entry "Shout_Dawnburst_of_Lathander"
 type "SpellData"
