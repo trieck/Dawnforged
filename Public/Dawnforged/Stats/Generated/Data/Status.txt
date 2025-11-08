@@ -29,3 +29,4 @@ using "FLY"
 data "DisplayName" "hbbc372f8g9756g4f18g941fg5e9214f947a7"
 data "Description" "hf1185af6g082bg4fb4gae16g263ce5435b03"
 data "Boosts" "UnlockSpell(Projectile_Moonfinger_Fly_Spell)"
+
