@@ -10,6 +10,19 @@ RequireFiles("shared/", {
     "PixieLib"
 })
 
+-- Returns all current player party members
+function GetParty()
+    local party = {}
+    local players = Osi.DB_Players:Get(nil)
+
+    for _, entry in pairs(players) do
+        local uuid = entry[1]
+        table.insert(party, uuid)
+    end
+
+    return party
+end
+
 function LevelLoaded(_LevelName)
     Ext.Utils.Print(string.format("   [Dawnforged] LevelLoaded called for level '%s'.", tostring(_LevelName)))
 
@@ -56,7 +69,23 @@ function LevelLoaded(_LevelName)
     end
 end
 
+function UsingSpellAfter(caster, spell, spellType, spellElement, storyActionID)
+    if spell == "AMX_Shout_SpellRecovery" then
+        Ext.Utils.Print("   [Dawnforged] AMX_Shout_SpellRecovery called.")
+        local party = GetParty()
+
+        for _, character in pairs(party) do
+             Osi.PROC_GLO_PartyMembers_TempRestore(character)
+             Osi.PROC_CharacterFullRestore(character)
+             Osi.ApplyStatus(character, "ALCH_POTION_REST_SLEEP_GREATER_RESTORATION", 100, -1)
+        end
+    end
+end
+
 Ext.Utils.Print("   [Dawnforged] Registering LevelLoaded listener.")
 Ext.Osiris.RegisterListener("LevelLoaded", 1, "after", LevelLoaded)
+
+Ext.Utils.Print("   [Dawnforged] Registering UsingSpell listener.")
+Ext.Osiris.RegisterListener("UsingSpell", 5, "after", UsingSpellAfter)
 
 Ext.Utils.Print("   [Dawnforged] _Init.lua loaded successfully.")
