@@ -281,6 +281,36 @@
                         <node id="GameMaster" />
                     </children>
                 </node>
+
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h26733642g5ff2g4192ga10cg0f8c6986eff5" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h7931d959g3bfeg4cb0ga53age615ca666396" version="1" />
+                    <attribute id="MapKey" type="FixedString" value="2bf0f6a4-7b68-43ae-91c4-2341c624351c" />
+                    <attribute id="Name" type="LSString" value="Sunstring" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="d9a98dce-1027-4324-939c-3c9cfe776731" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shortbow_A_1" />
+                    <attribute id="Stats" type="FixedString" value="Sunstring" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h867b5893g63dbg4cf7g87e1g222e2939cb41" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h7ffb9502g2684g46e9g87d6g71381da507c6" version="1" />
+                    <attribute id="MapKey" type="FixedString" value="393e1bd3-e089-4689-9eb9-f14353e99618" />
+                    <attribute id="Name" type="LSString" value="Aegis" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c4af39d8-628d-4791-9dc4-4446ee31e160" />
+                    <attribute id="Icon" type="FixedString" value="Generated_MAG_Paladin_RestoreChannelDivinity_Armor_Magic" />
+                    <attribute id="Stats" type="FixedString" value="Aegis" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
             </children>
         </node>
     </region>

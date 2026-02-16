@@ -55,7 +55,9 @@ function LevelLoaded(_LevelName)
         MorninglordsMantle = "f3f9b424-a19d-4846-a06c-a35ac2b4f353",
         RingSilverThreshold = "9c8268ba-f57e-423d-a0cd-0576254dc691",
         DawnforgedHammer = "315500b0-02d4-4827-a021-bc418e97ffc1",
-        Sunpiercer = "211bc74f-29d8-4d29-89fe-21ac1d5b8ee6"
+        Sunpiercer = "211bc74f-29d8-4d29-89fe-21ac1d5b8ee6",
+        Sunstring = "2bf0f6a4-7b68-43ae-91c4-2341c624351c",
+        Aegis = "393e1bd3-e089-4689-9eb9-f14353e99618"
     }
 
     for name, uuid in pairs(DawnforgedItems) do
