@@ -311,6 +311,21 @@
                         <node id="GameMaster" />
                     </children>
                 </node>
+
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8290a21ag7cb1g4e5dg97fdg357396f8c6a4" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h66615ed0gc1e4g4eb3gb492ge848b12f1259" version="1" />                    
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Rapier_A_1" />
+                    <attribute id="MapKey" type="FixedString" value="469fad07-246a-491a-a492-2590f84ad1ac" />
+                    <attribute id="Name" type="LSString" value="Sunwake" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5a6cea10-b3f6-4370-8eed-0b69b4ba531a" />
+                    <attribute id="Stats" type="FixedString" value="Sunwake" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children>
+                        <node id="GameMaster" />
+                    </children>
+                </node>  
             </children>
         </node>
     </region>

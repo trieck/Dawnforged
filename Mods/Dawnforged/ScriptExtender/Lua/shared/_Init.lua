@@ -57,7 +57,8 @@ function LevelLoaded(_LevelName)
         DawnforgedHammer = "315500b0-02d4-4827-a021-bc418e97ffc1",
         Sunpiercer = "211bc74f-29d8-4d29-89fe-21ac1d5b8ee6",
         Sunstring = "2bf0f6a4-7b68-43ae-91c4-2341c624351c",
-        Aegis = "393e1bd3-e089-4689-9eb9-f14353e99618"
+        Aegis = "393e1bd3-e089-4689-9eb9-f14353e99618",
+        Sunwake = "469fad07-246a-491a-a492-2590f84ad1ac"
     }
 
     for name, uuid in pairs(DawnforgedItems) do
