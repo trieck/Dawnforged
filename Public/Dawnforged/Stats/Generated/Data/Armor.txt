@@ -23,6 +23,7 @@ using "MAG_Barbarian_Magic_Armor_1"
 data "RootTemplate" "c221a696-d25e-47b7-816e-36889eed00a6"
 data "Rarity" "Legendary"
 data "ValueOverride" "5000"
+data "ArmorClass" "12"
 data "Boosts" "AC(5);ActionResource(Movement, 6, 0);UnlockSpell(Shout_AuraOf_Courage);UnlockSpell(Rush_MAG_Barbarian_Armor_Trample);UnlockSpell(Projectile_MAG_Barbarian_BrutalLeap)"
 data "Unique" "1"
 
