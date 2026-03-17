@@ -13,7 +13,7 @@ RequireFiles("shared/", {
 -- Returns all current player party members
 function GetParty()
     local party = {}
-    local players = Osi.DB_Players:Get(nil)
+    local players = Osi.DB_PartyMembers:Get(nil)
 
     for _, entry in pairs(players) do
         local uuid = entry[1]
