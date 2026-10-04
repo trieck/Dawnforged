@@ -88,8 +88,14 @@ function LevelLoaded(_LevelName)
 
     for name, uuid in pairs(DawnforgedItems) do
         local ok, err = pcall(function()
-            PixieLib:AddItemToContainer(uuid, chest)
-            Ext.Utils.Print(string.format("   [Dawnforged] Inserted %s (%s) into chest.", name, uuid))
+            local chestCount = Osi.TemplateIsInInventory(uuid, chest) or 0
+            local partyCount = Osi.TemplateGetCountInMagicPockets(uuid, Osi.GetHostCharacter()) or 0
+            if chestCount > 0 or partyCount > 0 then
+                Ext.Utils.Print(string.format("   [Dawnforged] Skipping %s (%s); it is already in the chest or party inventory.", name, uuid))
+            else
+                PixieLib:AddItemToContainer(uuid, chest)
+                Ext.Utils.Print(string.format("   [Dawnforged] Inserted %s (%s) into chest.", name, uuid))
+            end
         end)
         if not ok then
             Ext.Utils.PrintError(string.format("   [Dawnforged] Failed to insert %s: %s", name, err))

@@ -78,7 +78,7 @@
   <content contentuid="h54ab2c0fgaf64g4725g83caga66955f39bad" version="1">Sunward Aegis</content>
   <content contentuid="h9b950943g4daag4f85g8993g5bcd9fc70148" version="1">This studded shield catches the light like a rising sun and holds firm against the dark.</content>
   <content contentuid="h6c86c8bfa4144f178d15f41258ac4212" version="1">Daybreak</content>
-  <content contentuid="h1a2b9c3531b54c99b3b40756f9d81cd" version="1">Once per long rest, unleash a burst of dawnfire in a 9 m radius, dealing 3d10 + your level Radiant damage (half on a successful save).</content>
+  <content contentuid="h1a2b9c3531b54c99b3b40756f9d81cd" version="1">Once per long rest, unleash a burst of dawnfire in a 9 m radius, dealing 4d10 + your level Radiant damage (half on a successful save).</content>
   <content contentuid="h741d0a11587c41acbf393a22e9e70e13" version="1">Radiant Scorching Ray</content>
   <content contentuid="he93d7f365b85409784c128bd84a0eade" version="1">Once per long rest, fire three rays of radiant light. Make a ranged spell attack against each target; each ray deals 2d6 Radiant damage.</content>
 </contentList>
