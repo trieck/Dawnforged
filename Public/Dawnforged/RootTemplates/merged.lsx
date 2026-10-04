@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <save>
     <version major="4" minor="0" revision="6" build="5" />
     <region id="Templates">
@@ -326,6 +326,77 @@
                         <node id="GameMaster" />
                     </children>
                 </node>  
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="hce6c83d0g44a3g4816g8279g8c860df96c69" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="he37a15a2g0544g4427gb7d9g8854ac6c2080" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_ARM_Helmet_Metal_B" />
+                    <attribute id="MapKey" type="FixedString" value="db4800b7-b6a2-47f5-b4b2-39f2b87de6b9" />
+                    <attribute id="Name" type="LSString" value="Dawncrest" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="1e694935-3625-4781-8a6e-a91ba7f5876d" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="eb74d92c-28fa-9bff-10e2-4d25f379d5de" />
+                    <attribute id="Stats" type="FixedString" value="Dawnforged_Dawncrest" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="a1161d74-b710-5221-2cfc-1c9b141cb650" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children><node id="GameMaster" /></children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="heff68294g2a49g475dgb1d1g289241eefa1f" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h97dad8f2g2e38g4a4fg8b57g5d46435d2f1c" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_ARM_Gloves_Metal_2" />
+                    <attribute id="MapKey" type="FixedString" value="d050ea91-ce7c-4c27-b775-9696af2b00eb" />
+                    <attribute id="Name" type="LSString" value="Sungrips" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="1ab3e355-c1ed-4035-8c17-4ec2a8e8850f" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="d57abb81-7bd6-41dd-b5bd-cf4fbcd33576" />
+                    <attribute id="Stats" type="FixedString" value="Dawnforged_Sungrips" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="f8d75379-8afc-771a-d2cc-642dce282fe6" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children><node id="GameMaster" /></children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="ha6537f88gd137g43d8gb2aag6459dc10d6cb" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hef0bfc8cge8eeg45ddg8fdage3ed8046da62" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_ARM_Boots_Metal" />
+                    <attribute id="MapKey" type="FixedString" value="de148483-84f4-4cf4-9d71-b5722b4ac10f" />
+                    <attribute id="Name" type="LSString" value="Dawnstride" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="760772d4-7b86-49b5-b6d8-0d0302909b8c" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="573b8683-4ed6-12e7-a220-6c7cb539f473" />
+                    <attribute id="Stats" type="FixedString" value="Dawnforged_Dawnstride" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="098b18d9-8be9-40b5-fbf7-59d5c9d4ef11" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children><node id="GameMaster" /></children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="h7a807f77ga70fg461cg87c3gfc7d9659f664" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hda28dbb7g8396g4260g8efag46d93389c0f6" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Generated_MAG_PHB_CloakOfProtection_Cloak_Magic" />
+                    <attribute id="MapKey" type="FixedString" value="6d2a1ae8-34e2-4e48-b3f0-43d769fadebf" />
+                    <attribute id="Name" type="LSString" value="FirstLightMantle" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="a1978b4d-3d93-49ec-9a8b-d19171ed35d5" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="255230fd-6192-aafe-2b14-e586ae14c37f" />
+                    <attribute id="Stats" type="FixedString" value="Dawnforged_FirstLightMantle" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="8a03f130-7240-758e-a28a-7cc94fee57a4" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children><node id="GameMaster" /></children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="h9b950943g4daag4f85g8993g5bcd9fc70148" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h54ab2c0fgaf64g4725g83caga66955f39bad" version="1" />
+                    <attribute id="EquipmentTypeID" type="FixedString" value="fac6dd3a-6ceb-40fc-e891-396f3cc38ad9" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shield_A_1" />
+                    <attribute id="MapKey" type="FixedString" value="f30babbe-66ed-47cb-bf72-f8ffae4e9cad" />
+                    <attribute id="Name" type="LSString" value="SunwardAegis" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="77bee355-c1be-4182-bbe9-2279d3c856d6" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="9f767ebc-95f6-4ed7-a42e-ecb9ab8b557c" />
+                    <attribute id="Stats" type="FixedString" value="Dawnforged_SunwardAegis" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="9ed6e1b6-646d-4569-9413-fcb451667be9" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+                    <children><node id="GameMaster" /></children>
+                </node>
             </children>
         </node>
     </region>

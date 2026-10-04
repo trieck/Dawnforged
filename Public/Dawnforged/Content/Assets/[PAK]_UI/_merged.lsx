@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="8" revision="0" build="0"/>
+  <region id="TextureBank">
+    <node id="root"><children><node id="Resource">
+      <attribute id="Depth" type="int32" value="1"/>
+      <attribute id="Height" type="int32" value="512"/>
+      <attribute id="ID" type="FixedString" value="7bbca07f-a2d6-4610-8bf0-d385a1eb2c83"/>
+      <attribute id="Name" type="LSString" value="Icons_Dawnforged"/>
+      <attribute id="SRGB" type="bool" value="false"/>
+      <attribute id="SourceFile" type="LSString" value="Public/Dawnforged/Assets/Textures/Icons/Icons_Dawnforged.dds"/>
+      <attribute id="Streaming" type="bool" value="true"/>
+      <attribute id="Template" type="FixedString" value="Icons"/>
+      <attribute id="Type" type="int32" value="1"/>
+      <attribute id="Width" type="int32" value="512"/>
+      <attribute id="_OriginalFileVersion_" type="int64" value="145100350494343168"/>
+    </node></children></node>
+  </region>
+</save>

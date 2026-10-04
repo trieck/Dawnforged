@@ -10,6 +10,9 @@ RequireFiles("shared/", {
     "PixieLib"
 })
 
+local DAYBREAK_PASSIVE = "Dawnforged_Daybreak_Passive"
+local daybreakGranted = {}
+
 -- Returns all current player party members
 function GetParty()
     local party = {}
@@ -26,6 +29,23 @@ end
 function LevelLoaded(_LevelName)
     Ext.Utils.Print(string.format("   [Dawnforged] LevelLoaded called for level '%s'.", tostring(_LevelName)))
 
+    -- Grant Daybreak once to each party member. HasPassive avoids re-applying it
+    -- after a save is reloaded; the local guard avoids repeat queries on level changes.
+    for _, character in pairs(GetParty()) do
+        if not daybreakGranted[character] then
+            local ok, err = pcall(function()
+                local hasPassive = Osi.HasPassive(character, DAYBREAK_PASSIVE)
+                if hasPassive ~= 1 and hasPassive ~= true then
+                    Osi.AddPassive(character, DAYBREAK_PASSIVE)
+                end
+            end)
+            if ok then
+                daybreakGranted[character] = true
+            else
+                Ext.Utils.PrintError(string.format("   [Dawnforged] Failed to grant Daybreak to %s: %s", tostring(character), tostring(err)))
+            end
+        end
+    end
     -- Only run on the Nautiloid tutorial map
     if not _LevelName or not _LevelName:find("TUT_Avernus_C") then
         Ext.Utils.Print(string.format("   [Dawnforged] Skipping item injection; current level is '%s'", tostring(_LevelName)))
@@ -58,7 +78,12 @@ function LevelLoaded(_LevelName)
         Sunpiercer = "211bc74f-29d8-4d29-89fe-21ac1d5b8ee6",
         Sunstring = "2bf0f6a4-7b68-43ae-91c4-2341c624351c",
         Aegis = "393e1bd3-e089-4689-9eb9-f14353e99618",
-        Sunwake = "469fad07-246a-491a-a492-2590f84ad1ac"
+        Sunwake = "469fad07-246a-491a-a492-2590f84ad1ac",
+        Dawncrest = "db4800b7-b6a2-47f5-b4b2-39f2b87de6b9",
+        Sungrips = "d050ea91-ce7c-4c27-b775-9696af2b00eb",
+        Dawnstride = "de148483-84f4-4cf4-9d71-b5722b4ac10f",
+        FirstLightMantle = "6d2a1ae8-34e2-4e48-b3f0-43d769fadebf",
+        SunwardAegis = "f30babbe-66ed-47cb-bf72-f8ffae4e9cad"
     }
 
     for name, uuid in pairs(DawnforgedItems) do

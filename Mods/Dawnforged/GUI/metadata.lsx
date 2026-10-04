@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="7" revision="1" build="3" />
+  <region id="config">
+    <node id="config">
+      <children>
+        <node id="entries">
+          <children>
+            <node id="Object"><attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Dawnforged_Dawnburst_Orange.png" /><children><node id="entries"><attribute id="h" type="int16" value="144" /><attribute id="mipcount" type="int8" value="1" /><attribute id="w" type="int16" value="144" /></node></children></node>
+            <node id="Object"><attribute id="MapKey" type="FixedString" value="AssetsLowRes/ControllerUIIcons/skills_png/Dawnforged_Dawnburst_Orange.png" /><children><node id="entries"><attribute id="h" type="int16" value="72" /><attribute id="mipcount" type="int8" value="1" /><attribute id="w" type="int16" value="72" /></node></children></node>
+            <node id="Object"><attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Dawnforged_Dawnburst_Orange.png" /><children><node id="entries"><attribute id="h" type="int16" value="380" /><attribute id="mipcount" type="int8" value="1" /><attribute id="w" type="int16" value="380" /></node></children></node>
+            <node id="Object"><attribute id="MapKey" type="FixedString" value="AssetsLowRes/Tooltips/Icons/Dawnforged_Dawnburst_Orange.png" /><children><node id="entries"><attribute id="h" type="int16" value="192" /><attribute id="mipcount" type="int8" value="1" /><attribute id="w" type="int16" value="192" /></node></children></node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

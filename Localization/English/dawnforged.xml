@@ -67,4 +67,18 @@
   <content contentuid="h66615ed0gc1e4g4eb3gb492ge848b12f1259" version="1">Forged in the first blaze of dawn by the grace of the Morninglord, this radiant rapier burns with the promise of renewal. Its edge shines brightest against corruption, searing fiends and shadow with purifying light. Each strike is a reminder that no pact, no darkness, and no past mistake can withstand the coming of the sun.</content>
   <content contentuid="h20e9d003gaa4cg4781gb3c7g2f1915e2c327" version="1">Dawnforged Eldritch Blast</content>
   <content contentuid="h51b2e92fga7d6g4b56g8525g2fe6a397de0a" version="1">Your pact magic is suffused with the Morninglord's first light. Each of 2 beams burn with radiant fire.</content>
+  <content contentuid="he37a15a2g0544g4427gb7d9g8854ac6c2080" version="1">Crown of First Light</content>
+  <content contentuid="hce6c83d0g44a3g4816g8279g8c860df96c69" version="1">Forged in the first light of dawn, this helm steadies its wearer against the shadows.</content>
+  <content contentuid="h97dad8f2g2e38g4a4fg8b57g5d46435d2f1c" version="1">Sungrips</content>
+  <content contentuid="heff68294g2a49g475dgb1d1g289241eefa1f" version="1">Warm to the touch, these finely worked gloves carry a trace of Lathanders radiance.</content>
+  <content contentuid="hef0bfc8cge8eeg45ddg8fdage3ed8046da62" version="1">Dawnstride Boots</content>
+  <content contentuid="ha6537f88gd137g43d8gb2aag6459dc10d6cb" version="1">These sturdy boots carry their wearer swiftly through the last shadows of night.</content>
+  <content contentuid="hda28dbb7g8396g4260g8efag46d93389c0f6" version="1">Mantle of First Light</content>
+  <content contentuid="h7a807f77ga70fg461cg87c3gfc7d9659f664" version="1">A protective mantle woven with gold thread. Its gentle light recalls the first sunrise.</content>
+  <content contentuid="h54ab2c0fgaf64g4725g83caga66955f39bad" version="1">Sunward Aegis</content>
+  <content contentuid="h9b950943g4daag4f85g8993g5bcd9fc70148" version="1">This studded shield catches the light like a rising sun and holds firm against the dark.</content>
+  <content contentuid="h6c86c8bfa4144f178d15f41258ac4212" version="1">Daybreak</content>
+  <content contentuid="h1a2b9c3531b54c99b3b40756f9d81cd" version="1">Once per long rest, unleash a burst of dawnfire in a 9 m radius, dealing 3d10 + your level Radiant damage (half on a successful save).</content>
+  <content contentuid="h741d0a11587c41acbf393a22e9e70e13" version="1">Radiant Scorching Ray</content>
+  <content contentuid="he93d7f365b85409784c128bd84a0eade" version="1">Once per long rest, fire three rays of radiant light. Make a ranged spell attack against each target; each ray deals 2d6 Radiant damage.</content>
 </contentList>
